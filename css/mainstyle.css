@@ -1,0 +1,108 @@
+.body{margin: 0;padding: 0}
+
+.head{
+    width:100%;
+    height:50px;
+    background: #ccc;
+}
+
+.main{
+    width:100%;
+    height:516px;
+    padding: 8px;
+    background: aquamarine;
+}
+
+.main .left{
+    width:20%;
+    height:500px;
+    position:absolute;
+    left:0;
+    top:58px;
+    margin:0 0 8px 1%;
+    border-radius: 15px;
+}
+.main .left .top{
+    width:100%;
+    height:10%;
+    position:absolute;
+    top:2%;
+}
+.main .left .bottom{
+    width:100%;
+    height:83%;
+    position:absolute;
+    top:14%;
+    background: darkorchid;
+    border-radius: 15px;
+}
+.main .middle{
+    height:500px;
+    margin:0 32% 8px 22%;;
+    border-radius: 15px;
+}
+.main .middle .top{
+    width:100%;
+    height:10%;
+    position: relative;
+    top:2%;
+}
+.main .middle .center{
+    width:100%;
+    height:61%;
+    position: relative;
+    top:4%;
+    background: lightblue;
+    border-radius: 15px;
+    overflow: auto;
+}
+.main .middle .bottom{
+    width:100%;
+    height:20%;
+    position: relative;
+    top:6%;
+    background: skyblue;
+    border-radius: 15px;
+}
+.main .middle .bottom .ask-text{
+    float: left;
+    width: 65%;
+    margin-top:5%;
+    margin-left: 5%;
+}
+.main .middle .bottom a{
+    width:22%;
+    margin-top:4%;
+    margin-left: 5%;
+}
+.main .right{
+    width:30%;
+    height:500px;
+    position:absolute;
+    right:0;
+    top:58px;
+    margin:0 1% 8px 0;
+    border-radius: 15px;
+}
+.main .right .top{
+    width: 100%;
+    height:46%;
+    position:absolute;
+    top:2%;
+    background: lightpink;
+    border-radius: 15px;
+    overflow: auto;
+}
+.main .right .bottom{
+    width:100%;
+    height:47%;
+    position:absolute;
+    top:50%;
+    background: hotpink;
+    border-radius: 15px;
+}
+
+.footer{width:100%;
+    height:50px;
+    background: #ccc;
+}
