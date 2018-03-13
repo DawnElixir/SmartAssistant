@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <!--buttons-->
     <link rel="stylesheet" type="text/css" href="css/buttons.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 <!--网站头部-->
@@ -49,26 +51,13 @@
             </div>
         </div>
         <!--中央中部功能展示区-->
-        <div class="center">
-            <ul>
-                <li><p>助手说的话1</p></li>
-                <li><p>助手说的话2</p></li>
-                <li><p>提问1</p></li>
-                <li><p>回答1</p></li>
-                <li><p>提问2</p></li>
-                <li><p>回答2</p></li>
-                <li><p>回答3</p></li>
-                <li><p>回答4</p></li>
-                <li><p>回答5</p></li>
-                <li><p>回答6</p></li>
-                <li><p>回答7</p></li>
-                <li><p>回答8</p></li>
-            </ul>
+        <div id="center" class="center">
+            <p id="result"></p>
         </div>
         <!--中央底部用户输入区-->
-        <div class="bottom">
-            <input type="text" class="ask-text">
-            <a href="#"  class="button button-3d button-primary button-rounded">发送</a>
+        <div id="centerInput" class="bottom">
+            <input type="text" id="source" class="ask-text">
+            <button id="chat" class="button button-3d button-primary button-rounded">发送</button>
         </div>
     </div>
     <!--主体右侧-->
